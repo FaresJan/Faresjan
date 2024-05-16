@@ -3,7 +3,7 @@ import streamlit as st
 def replace_text(input_text, old_substring, new_substring):
     return input_text.replace(old_substring, new_substring)
 
-st.title("Text Replacement Application")
+st.title("PLM Group Text Replacement App")
 
 # User input for the text
 input_text = st.text_area("Enter the text to be modified:")
